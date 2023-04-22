@@ -1,46 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sejours_linguistiques xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                        xsi:noNamespaceSchemaLocation="sejours_linguistiques.xsd">
+<sejours_linguistiques xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="sejours_linguistiques.xsd">
+   
     <clients>
         <clientType>
-            <nom>Dupont</nom>
-            <prenom>Lucie</prenom>
-            <adresse>15 Rue des Lilas, 75005 Paris</adresse>
-            <email>lucie.dupont@example.com</email>
-            <age>20</age>
-            <sexe>female</sexe>
-            <nationalite>française</nationalite>
-            <dateDeNaissance>2003-07-12</dateDeNaissance>
+            <nom>Nadal</nom>
+            <prenom>Rafael</prenom>
+            <adresse>15 Rue Winterfell, 20001 Madrid Espagne</adresse>
+            <email>rafael.nadal@gmail.com</email>
+            <age>36</age>
+            <sexe>male</sexe>
+            <nationalite>espagnole</nationalite>
+            <dateDeNaissance>03-06-1986</dateDeNaissance>
         </clientType>
         <clientType>
-            <nom>Smith</nom>
-            <prenom>John</prenom>
-            <adresse>123 Main St, Springfield, IL 62704, USA</adresse>
-            <email>j.smith@example.com</email>
-            <age>25</age>
+            <nom>Federer</nom>
+            <prenom>Roger</prenom>
+            <adresse>25 stradun 25, 3925 Grächen Suisse</adresse>
+            <email>roger.federer@gmail.com</email>
+            <age>41</age>
             <sexe>male</sexe>
-            <nationalite>américaine</nationalite>
-            <dateDeNaissance>1998-05-06</dateDeNaissance>
+            <nationalite>suisse</nationalite>
+            <dateDeNaissance>08-08-1981</dateDeNaissance>
         </clientType>
     </clients>
+
     <accompagnateurs>
         <accompagnateurType>
-            <nom>Durand</nom>
-            <prenom>Paul</prenom>
-            <adresse>25 Rue du Commerce, 75015 Paris</adresse>
-            <email>p.durand@example.com</email>
+            <nom>Ancelotti</nom>
+            <prenom>Carlo</prenom>
+            <adresse>25 Plaza Conte, 00100 Rome Italie</adresse>
+            <email>carlo.ancelotti@gmail.com</email>
             <age>35</age>
             <sexe>male</sexe>
         </accompagnateurType>
     </accompagnateurs>
+
     <enseignants specialite="grammaire">
         <enseignantType>
-            <nom>Lee</nom>
-            <prenom>Chang</prenom>
-            <email>c.lee@example.com</email>
-            <langue>mandarin</langue>
+            <nom>Pintus</nom>
+            <prenom>Antonio</prenom>
+            <email>antonio.pintus@gmail.com</email>
+            <langue>italien</langue>
         </enseignantType>
     </enseignants>
+
     <destinations>
         <destinationType>
             <nom>London School of English</nom>
@@ -53,6 +56,7 @@
             <ville>Berlin</ville>
         </destinationType>
     </destinations>
+
     <types_de_public>
         <typeDePublicType>
             <nom>Débutant</nom>
@@ -67,6 +71,7 @@
             <description>Personnes ayant une bonne maîtrise de la langue.</description>
         </typeDePublicType>
     </types_de_public>
+
     <types_de_sejours>
         <typeDeSejourType>
             <nom>Cours intensifs</nom>
@@ -77,44 +82,47 @@
             <description>Programme avec hébergement en famille d'accueil pour une immersion totale dans la culture et la langue du pays.</description>
         </typeDeSejourType>
     </types_de_sejours>
+
     <sejours>
         <sejourType>
             <destination>Londres</destination>
             <typeDeSejour>Cours intensifs</typeDeSejour>
-            <dateDebut>2023-07-01</dateDebut>
-            <dateFin>2023-07-15</dateFin>
+            <dateDebut>01-07-2023</dateDebut>
+            <dateFin>15-07-2023</dateFin>
             <typeDePublic>Débutant</typeDePublic>
             <client>
-                <nom>Dupont</nom>
-                <prenom>Lucie</prenom>
+                <nom>Nadal</nom>
+                <prenom>Rafael</prenom>
             </client>
             <accompagnateur>
-                <nom>Durand</nom>
-                <prenom>Paul</prenom>
+                <nom>Ancelotti</nom>
+                <prenom>Carlo</prenom>
             </accompagnateur>
             <enseignant>
-                <nom>Lee</nom>
-                <prenom>Chang</prenom>
+                <nom>Pintus</nom>
+                <prenom>Carlo</prenom>
             </enseignant>
         </sejourType>
+
         <sejourType>
             <destination>Berlin</destination>
             <typeDeSejour>Stage linguistique</typeDeSejour>
-            <dateDebut>2023-08-01</dateDebut>
-            <dateFin>2023-08-31</dateFin>
+            <dateDebut>01-08-2023</dateDebut>
+            <dateFin>31-08-2023</dateFin>
             <typeDePublic>Avancé</typeDePublic>
             <client>
-                <nom>Smith</nom>
-                <prenom>John</prenom>
+                <nom>Federer</nom>
+                <prenom>Roger</prenom>
             </client>
             <accompagnateur>
-                <nom>Durand</nom>
-                <prenom>Paul</prenom>
+                <nom>Ancelotti</nom>
+                <prenom>Carlo</prenom>
             </accompagnateur>
             <enseignant>
-                <nom>Lee</nom>
-                <prenom>Chang</prenom>
+                <nom>Pintus</nom>
+                <prenom>Carlo</prenom>
             </enseignant>
         </sejourType>
     </sejours>
+
 </sejours_linguistiques>
