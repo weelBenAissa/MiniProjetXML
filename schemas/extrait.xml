@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sejours_linguistiques xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xsi:noNamespaceSchemaLocation="sejours_linguistiques.xsd">
+    <clients>
+        <clientType>
+            <nom>Dupont</nom>
+            <prenom>Lucie</prenom>
+            <adresse>15 Rue des Lilas, 75005 Paris</adresse>
+            <email>lucie.dupont@example.com</email>
+            <age>20</age>
+            <sexe>female</sexe>
+            <nationalite>française</nationalite>
+            <dateDeNaissance>2003-07-12</dateDeNaissance>
+        </clientType>
+        <clientType>
+            <nom>Smith</nom>
+            <prenom>John</prenom>
+            <adresse>123 Main St, Springfield, IL 62704, USA</adresse>
+            <email>j.smith@example.com</email>
+            <age>25</age>
+            <sexe>male</sexe>
+            <nationalite>américaine</nationalite>
+            <dateDeNaissance>1998-05-06</dateDeNaissance>
+        </clientType>
+    </clients>
+    <accompagnateurs>
+        <accompagnateurType>
+            <nom>Durand</nom>
+            <prenom>Paul</prenom>
+            <adresse>25 Rue du Commerce, 75015 Paris</adresse>
+            <email>p.durand@example.com</email>
+            <age>35</age>
+            <sexe>male</sexe>
+        </accompagnateurType>
+    </accompagnateurs>
+    <enseignants specialite="grammaire">
+        <enseignantType>
+            <nom>Lee</nom>
+            <prenom>Chang</prenom>
+            <email>c.lee@example.com</email>
+            <langue>mandarin</langue>
+        </enseignantType>
+    </enseignants>
+    <destinations>
+        <destinationType>
+            <nom>London School of English</nom>
+            <pays>Royaume-Uni</pays>
+            <ville>Londres</ville>
+        </destinationType>
+        <destinationType>
+            <nom>German Language Center</nom>
+            <pays>Allemagne</pays>
+            <ville>Berlin</ville>
+        </destinationType>
+    </destinations>
+    <types_de_public>
+        <typeDePublicType>
+            <nom>Débutant</nom>
+            <description>Personnes n'ayant jamais étudié la langue.</description>
+        </typeDePublicType>
+        <typeDePublicType>
+            <nom>Intermédiaire</nom>
+            <description>Personnes ayant une connaissance de base de la langue.</description>
+        </typeDePublicType>
+        <typeDePublicType>
+            <nom>Avancé</nom>
+            <description>Personnes ayant une bonne maîtrise de la langue.</description>
+        </typeDePublicType>
+    </types_de_public>
+    <types_de_sejours>
+        <typeDeSejourType>
+            <nom>Cours intensifs</nom>
+            <description>Programme intensif comprenant des cours de langue et des activités culturelles.</description>
+        </typeDeSejourType>
+        <typeDeSejourType>
+            <nom>Programme en famille d'accueil</nom>
+            <description>Programme avec hébergement en famille d'accueil pour une immersion totale dans la culture et la langue du pays.</description>
+        </typeDeSejourType>
+    </types_de_sejours>
+    <sejours>
+        <sejourType>
+            <destination>Londres</destination>
+            <typeDeSejour>Cours intensifs</typeDeSejour>
+            <dateDebut>2023-07-01</dateDebut>
+            <dateFin>2023-07-15</dateFin>
+            <typeDePublic>Débutant</typeDePublic>
+            <client>
+                <nom>Dupont</nom>
+                <prenom>Lucie</prenom>
+            </client>
+            <accompagnateur>
+                <nom>Durand</nom>
+                <prenom>Paul</prenom>
+            </accompagnateur>
+            <enseignant>
+                <nom>Lee</nom>
+                <prenom>Chang</prenom>
+            </enseignant>
+        </sejourType>
+        <sejourType>
+            <destination>Berlin</destination>
+            <typeDeSejour>Stage linguistique</typeDeSejour>
+            <dateDebut>2023-08-01</dateDebut>
+            <dateFin>2023-08-31</dateFin>
+            <typeDePublic>Avancé</typeDePublic>
+            <client>
+                <nom>Smith</nom>
+                <prenom>John</prenom>
+            </client>
+            <accompagnateur>
+                <nom>Durand</nom>
+                <prenom>Paul</prenom>
+            </accompagnateur>
+            <enseignant>
+                <nom>Lee</nom>
+                <prenom>Chang</prenom>
+            </enseignant>
+        </sejourType>
+    </sejours>
+</sejours_linguistiques>
