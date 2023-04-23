@@ -13,6 +13,8 @@
       </head>
       <body>
         <h1>Liste des offres de séjours linguistiques</h1>
+        <br/>
+        <br/>
         <table>
           <tr>
             <th>Destination</th>
