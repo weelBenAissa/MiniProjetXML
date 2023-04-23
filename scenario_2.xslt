@@ -12,10 +12,10 @@
                 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&amp;family=Montserrat:ital,wght@0,200;1,200&amp;display=swap" rel="stylesheet"/>
             </head>
             <body>
-                <h1>Séjours Linguistiques Scolaires dont le prix est inférieur à 3000€ :</h1>
+                <h1>Séjours Linguistiques Scolaires dont le prix est inférieur à 3000€</h1>
                 <br/>
                 <br/>
-                <table id="table">
+                <table>
                     <tr>
                         <th>Destination</th>
                         <th>Cours de langue</th>

@@ -88,7 +88,7 @@
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
-                                        <xs:element name="niveau_de_langue_requis">
+                                        <xs:element name="niveau_de_langue_requis" use="optional">
                                             <xs:simpleType>
                                                 <xs:restriction base="xs:string">
                                                     <xs:enumeration value="débutant"/>

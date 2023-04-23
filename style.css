@@ -14,64 +14,48 @@ body {
   font-family: 'Cinzel', serif;
   text-align: center;
   margin-bottom: 10px;
-}
-
-h1 {
-  text-align: center;
-  margin: 20px 0;
+  /* Centrage global de la page */
+  align-items: center;
+  justify-content: center;
 }
 
 table {
-  width: 100%;
   border-collapse: collapse;
-  margin-bottom: 20px;
+  margin: 0 auto;
+  width: 80%;
+  border: 2px solid #ddd;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 th, td {
-  padding: 10px;
-  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center; /* Centrage des éléments dans les cellules */
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #0000002f;
 }
 
 th {
-  text-align: left;
-  background-color: #eee;
+  background-color: #f0e8e8;
+  font-weight: bold;
+}
+
+/* Ajout d'une ombre portée pour la table */
+table {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.089);
+}
+
+/* Suppression de la bordure de droite pour la dernière colonne */
+th:last-child,
+td:last-child {
+  border-right: none;
 }
 
 ul {
+  list-style: none;
   margin: 0;
   padding: 0;
 }
 
 li {
-  list-style: none;
+  margin-bottom: 5px;
 }
-
-/* Media queries */
-@media (max-width: 768px) {
-  table {
-    font-size: 14px;
-  }
-}
-
-#table {
-  border-collapse: collapse;
-  margin: 0 auto;
-  max-width: 80%;
-}
-
-#table th, #table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-  white-space: nowrap;
-  text-align: center; /* Ajout de la propriété text-align:center */
-}
-
-#table th {
-  background-color: #f2f2f2;
-}
-
-#table td:first-child {
-  font-weight: bold;
-}
-
