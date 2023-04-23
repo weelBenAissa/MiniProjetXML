@@ -58,6 +58,55 @@
             <date>2019-07-01</date>
 
         </sejour_linguistique>
+        <sejour_linguistique>
+  <id>2</id>
+  <type_de_sejour>
+    <immersions_en_famille>
+      <annotation>
+        <documentation>
+          Cet élément représente un séjour linguistique en immersion totale chez une famille d'accueil, destiné à permettre aux participants d'apprendre une langue étrangère tout en découvrant une nouvelle culture et en vivant une expérience authentique.
+        </documentation>
+      </annotation>
+    </immersions_en_famille>
+  </type_de_sejour>
+  <destination>Japon</destination>
+  <cours_de_langue>Japonais</cours_de_langue>
+  <test_de_langue>JLPT</test_de_langue>
+  <activites>
+    <activite>
+      <culturelle>Visite du sanctuaire Fushimi Inari</culturelle>
+      <sportive>Kendo</sportive>
+      <culturelle>Expérience du théâtre Noh</culturelle>
+      <culinaire>Atelier sushi</culinaire>
+    </activite>
+  </activites>
+  <prix>10000.00</prix>
+  <clients>
+    <client id="1" prenom="Monkey D." nom="Luffy" age="19" sexe="M" adresse="Île des Hommes-Poissons" telephone="0000000000"/>
+    <client id="2" prenom="Nami" nom="Arlong" age="20" sexe="F" adresse="Île des Hommes-Poissons" telephone="1111111111"/>
+  </clients>
+  <type_de_public>
+    <adolescents>
+      <annotation>
+        <documentation>
+          Cet élément représente un public d'adolescents.
+        </documentation>
+      </annotation>
+    </adolescents>
+  </type_de_public>
+  <accompagnateurs>
+    <accompagnateur id="10" prenom="Roronoa" nom="Zoro"/>
+    <accompagnateur id="20" prenom="Sanji" nom="Vinsmoke"/>
+  </accompagnateurs>
+  <enseignants>
+    <enseignant id="100" prenom="Trafalgar" nom="Law" experience="Très malin">
+    <langues_parlees niveau="expert">japonais</langues_parlees>
+    <langues_parlees niveau="intermédiaire">français</langues_parlees>
+    </enseignant>
+  </enseignants>
+  <date>2024-06-10</date>
+</sejour_linguistique>
+        
 
     </offre_de_sejour_linguistique>
 
