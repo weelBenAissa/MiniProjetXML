@@ -13,7 +13,9 @@
       </head>
       <body>
         <h1>Liste des offres de séjours linguistiques qui ont pour but d'améliorer l'Anglais</h1>
-        <table>
+        <br/>
+        <br/>
+        <table id="table">
           <tr>
             <th>Destination</th>
             <th>Description</th>

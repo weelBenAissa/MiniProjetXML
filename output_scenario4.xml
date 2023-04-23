@@ -1,0 +1,101 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <activite>
+        <culturelle>Musée de Londres</culturelle>
+        <sportive>Football</sportive>
+    </activite>
+
+    <activite>
+        <culturelle>Visite de la ville</culturelle>
+        <culinaire>Atelier cuisine anglaise</culinaire>
+    </activite>
+
+    <activite>
+        <culturelle>Visite du sanctuaire Fushimi Inari</culturelle>
+    </activite>
+
+    <activite>
+        <sportive>Kendo</sportive>
+    </activite>
+
+    <activite>
+        <culturelle>Expérience du théâtre Noh</culturelle>
+    </activite>
+
+    <activite>                    
+        <culinaire>Atelier sushi</culinaire>
+    </activite>
+
+    <activite>
+        <culturelle>Visite de Rio de Janeiro</culturelle>
+    </activite>
+
+    <activite>
+        <sportive>Match amical contre une équipe locale</sportive>
+    </activite>
+
+    <activite>
+        <culturelle>Excursion dans la forêt amazonienne</culturelle>
+    </activite>
+
+    <activite>
+        <sportive>Entrainement sur la plage de Copacabana</sportive>
+    </activite>
+
+    <activite>
+        <culinaire>Dégustation de la cuisine brésilienne</culinaire>
+    </activite>
+
+    <activite>
+        <aquatique>Plongée sous-marine</aquatique>
+    </activite>
+
+    <activite>
+        <sportive/>
+    </activite>
+
+    <activite>
+        <culturelle>Visite de la Maison Blanche</culturelle>
+    </activite>
+
+    <activite>
+        <professionnelle>Negociation avec Elon Musk</professionnelle>
+    </activite>
+
+    <activite>
+        <professionnelle>Visite des locaux de la NASA</professionnelle>
+    </activite>
+
+    <activite>
+        <culturelle>Visite du musée du cinéma de Barcelone</culturelle>
+        <divertissement>Projection de films espagnols</divertissement>
+        <culturelle>Visite du Santiago Bernabeu</culturelle>
+    </activite>
+
+    <activite>
+        <culturelle>visite du marché de Tokyo</culturelle>
+    </activite>
+
+    <activite>
+        <culinaire>degustation des spécialité locales dans le restaurant du chef etoilé Eiichiro Oda</culinaire>
+    </activite>
+
+    <activite>
+        <divertissement>Atelier Manga avec Mr Kishimoto </divertissement>
+    </activite>
+
+    <activite>
+        <culturelle>visite du marché de Londres</culturelle>
+    </activite>
+
+    <activite>
+        <culturelle>Entretien avec Agatha Christie, la célèbre écrivaine </culturelle>
+    </activite>
+
+    <activite>
+        <culinaire>degustation des spécialité locales dans le restaurant du chef etoilé Gordon Ramsay</culinaire>
+    </activite>
+    
+    <activite>
+        <divertissement>Atelier de cuisine avec Mr Gordon Ramsay </divertissement>
+    </activite>
+</xs:schema>

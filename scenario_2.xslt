@@ -13,7 +13,9 @@
             </head>
             <body>
                 <h1>Séjours Linguistiques Scolaires dont le prix est inférieur à 3000€ :</h1>
-                <table>
+                <br/>
+                <br/>
+                <table id="table">
                     <tr>
                         <th>Destination</th>
                         <th>Cours de langue</th>
