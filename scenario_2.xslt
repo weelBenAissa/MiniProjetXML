@@ -12,7 +12,7 @@
                 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&amp;family=Montserrat:ital,wght@0,200;1,200&amp;display=swap" rel="stylesheet"/>
             </head>
             <body>
-                <h1>Séjours Linguistiques Scolaires dont le prix est inférieur à 20000€ :</h1>
+                <h1>Séjours Linguistiques Scolaires dont le prix est inférieur à 3000€ :</h1>
                 <table>
                     <tr>
                         <th>Destination</th>
@@ -22,7 +22,7 @@
                         <th>Prix</th>
                         <th>Date</th>
                     </tr>
-                        <xsl:for-each select="centre_de_sejours_linguistiques/offre_de_sejour_linguistique/sejour_linguistique[type_de_sejour/groupes_scolaires][prix &lt; 20000]">
+                        <xsl:for-each select="centre_de_sejours_linguistiques/offre_de_sejour_linguistique/sejour_linguistique[type_de_sejour/groupes_scolaires][prix &lt; 3000]">
                     <tr>
                         <td><xsl:value-of select="destination"/></td>
                         <td><xsl:value-of select="cours_de_langue"/></td>

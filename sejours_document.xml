@@ -29,7 +29,7 @@
                     <culinaire>Atelier cuisine anglaise</culinaire>
                 </activite>
             </activites>
-            <prix>2000.00</prix>
+            <prix>1990.00</prix>
             <clients>
                 <client id="1" prenom="Jon" nom="Snow" age="33" sexe="M" adresse="40 Rue Winterfell Westros" telephone="0606060606"/>
                 <client id="2" prenom="Daenerys" nom="Targaryen" age="25" sexe="F" adresse="50 DragonStone Esos" telephone="0707070707"/>
@@ -88,7 +88,7 @@
                     <culinaire>Atelier sushi</culinaire>
                 </activite>
             </activites>
-            <prix>10000.00</prix>
+            <prix>4000.00</prix>
             <clients>
             <client id="1" prenom="Monkey D." nom="Luffy" age="19" sexe="M" adresse="Île des Hommes-Poissons" telephone="0000000000"/>
             <client id="2" prenom="Nami" nom="Arlong" age="20" sexe="F" adresse="Île des Hommes-Poissons" telephone="1111111111"/>
@@ -149,7 +149,7 @@
                     <aquatique>Plongée sous-marine</aquatique>
                 </activite>
             </activites>
-            <prix>19990.00</prix>
+            <prix>1990.00</prix>
             <clients>
                 <client id="1" prenom="Weel" nom="Ben Aissa" age="19" sexe="M" adresse="Nice, France" telephone="0606060606"/>
                 <client id="2" prenom="Ali" nom="Haitam" age="21" sexe="M" adresse="Casablanca, Maroc" telephone="0707070707"/>
@@ -208,7 +208,7 @@
                     <professionnelle>Visite des locaux de la NASA</professionnelle>
                 </activite>
             </activites>
-            <prix>150000.00</prix>
+            <prix>5000.00</prix>
             <clients>
                 <client id="1" prenom="Emmanuel" nom="Macron" age="56" sexe="M" adresse="Paris, France" telephone="0606060606"/>
                 <client id="2" prenom="Angela" nom="Merkel" age="21" sexe="M" adresse="Berlin, Allemagne" telephone="0707070707"/>
@@ -292,7 +292,7 @@
                     <divertissement>Atelier Manga avec Mr Kishimoto </divertissement>
                 </activite>
             </activites>
-            <prix>10000.00</prix>
+            <prix>1500.00</prix>
             <clients>
                 <client id="1" prenom="Michael" nom="Scofield" age="12" sexe="M" adresse="Fox River" telephone="0606060606"/>
                 <client id="2" prenom="Lincoln" nom="Burrows" age="15" sexe="F" adresse="Sona" telephone="0707070707"/>
@@ -342,7 +342,7 @@
                     <divertissement>Atelier de cuisine avec Mr Gordon Ramsay </divertissement>
                 </activite>
             </activites>
-            <prix>6000.00</prix>
+            <prix>900.00</prix>
             <clients>
                 <client id="1" prenom="Aymane" nom="Elfiguigui" age="22" sexe="M" adresse="Tanger, Maroc" telephone="0606060606"/>
                 <client id="2" prenom="Youssef" nom="El Garmit" age="25" sexe="M" adresse="Tanger, Maroc" telephone="0707070707"/>
