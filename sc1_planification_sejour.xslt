@@ -15,7 +15,6 @@
         <h1>Liste des offres de séjours linguistiques</h1>
         <table>
           <tr>
-            <th>ID</th>
             <th>Destination</th>
             <th>Cours de langue</th>
             <th>Test de langue</th>
@@ -25,10 +24,8 @@
           </tr>
           <xsl:for-each select="centre_de_sejours_linguistiques/offre_de_sejour_linguistique/sejour_linguistique">
             <tr>
-              <td><xsl:value-of select="id"/></td>
               <td><xsl:value-of select="destination"/></td>
               <td><xsl:value-of select="cours_de_langue"/></td>
-              <td><xsl:value-of select="test_de_langue"/></td>
               <td>
                 <ul>
                   <xsl:for-each select="activites/activite">

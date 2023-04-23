@@ -30,7 +30,7 @@
                                                     <xs:element name="immersions_en_famille" type="xs:string">
                                                         <xs:annotation>
                                                             <xs:documentation>
-                                                                Cette élément représente un séjour linguistique en immersion totale chez une famille d'accueil, destiné à permettre aux participants d'apprendre une langue étrangère tout en découvrant une nouvelle culture et en vivant une expérience authentique.
+                                                                Cet élément représente un séjour linguistique en immersion totale chez une famille d'accueil, destiné à permettre aux participants d'apprendre une langue étrangère tout en découvrant une nouvelle culture et en vivant une expérience authentique.
                                                             </xs:documentation>
                                                         </xs:annotation>
                                                     </xs:element>
@@ -44,7 +44,7 @@
                                                     <xs:element name="programme_de_volontariat" type="xs:string">
                                                         <xs:annotation>
                                                             <xs:documentation>
-                                                                Cet élément représente un programme de volontariat linguistique, où les participants enseignent l'anglais ou une autre langue étrangère dans un pays étranger.
+                                                                Cet élément représente un programme de volontariat linguistique, où les participants enseignent une autre langue étrangère dans un pays étranger.
                                                             </xs:documentation>
                                                         </xs:annotation>
                                                     </xs:element>
@@ -52,8 +52,8 @@
                                             </xs:complexType>
                                         </xs:element>
                                         <xs:element name="destination" type="xs:string" />
-										<xs:element name="cours_de_langue" type="xs:string" />
-										<xs:element name="test_de_langue" type="xs:string" />
+										<xs:element name="cours_de_langue" type="xs:string" use="optional" />
+										<xs:element name="test_de_langue" type="xs:string" use="optional" />
                                         <xs:element name="activites">
                                             <xs:complexType>
                                                 <xs:sequence>
@@ -65,8 +65,8 @@
                                                                     <xs:element name="sportive" type="xs:string" minOccurs="0" />
                                                                     <xs:element name="aquatique" type="xs:string" minOccurs="0" />
                                                                     <xs:element name="culinaire" type="xs:string" minOccurs="0" />
-                                                                    <xs:element name="artistique" type="xs:string" minOccurs="0" />
-                                                                    <xs:element name="randonnée" type="xs:string" minOccurs="0" />
+                                                                    <xs:element name="professionelle" type="xs:string" minOccurs="0" />
+                                                                    <xs:element name="divertissement" type="xs:string" minOccurs="0" />
                                                                 </xs:choice>
                                                             </xs:sequence>
                                                         </xs:complexType>
@@ -154,7 +154,7 @@
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="enseignants">
+                                        <xs:element name="enseignants" use="optional">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="enseignant" minOccurs="1" maxOccurs="unbounded">

@@ -22,47 +22,39 @@
             <test_de_langue>TOEFL</test_de_langue>
             <activites>
                 <activite>
-                    <culturelle>Musée de Londres</culturelle>
+                    <professionelle>Simulation d'une negociation avec Elon Musk</professionelle>
                 </activite>
                 <activite>
-                    <sportive>Football</sportive>
+                    <sportive>Match de Basket avec Micheal Jordan </sportive>
                 </activite>
                 <activite>
-                    <culturelle>Visite de la ville</culturelle>
+                    <culturelle>Visite de la Maison Blanche</culturelle>
                 </activite>
-                <activite>                    
-                    <culinaire>Atelier cuisine anglaise</culinaire>
+                <activite>
+                    <professionelle>Visite de la NASA</professionelle>
                 </activite>
             </activites>
-            <prix>2000.00</prix>
+            <prix>50000.00</prix>
             <clients>
-                <client id="1" prenom="Jon" nom="Snow" age="33" sexe="M" adresse="40 Rue Winterfell Westros" telephone="0606060606"/>
-                <client id="2" prenom="Daenerys" nom="Targaryen" age="25" sexe="F" adresse="50 DragonStone Esos" telephone="0707070707"/>
+                <client id="1" prenom="Michael" nom="Scofield" age="33" sexe="M" adresse="Fox River" telephone="0606060606"/>
+                <client id="2" prenom="Lincoln" nom="Burrows" age="25" sexe="F" adresse="Sona" telephone="0707070707"/>
+                <client id="3" prenom="Sara" nom="Tancredi" age="25" sexe="F" adresse="Sona" telephone="0808080808"/>
+                <client id="4" prenom="LJ" nom="Burrows" age="5" sexe="M" adresse="Sona" telephone="0909090909"/>
             </clients>
             <type_de_public>
-                <enfants>
+                <adultes>
                     <annotation>
                         <documentation>
-                            Cet élément représente un public d'enfants et d'adolescents.
+                            Cet élément représente un public d'adultes.
                         </documentation>
                     </annotation>
-                </enfants>
+                </adultes>
             </type_de_public>
             <accompagnateurs>
-                <accompagnateur id="10" prenom="Arya" nom="Stark"/>
-                <accompagnateur id="20" prenom="Sansa" nom="Stark"/>
+                <accompagnateur id="10" prenom="Theodore" nom="Bagwell"/>
+                <accompagnateur id="20" prenom="Christina" nom="Rose"/>
             </accompagnateurs>
-            <enseignants>
-                <enseignant id="100" prenom="Tyrion" nom="Lannister" experience="Très malin">
-                    <langues_parlees niveau="expert">français</langues_parlees>
-                    <langues_parlees niveau="intermédiaire">anglais</langues_parlees>
-                </enseignant>
-                <enseignant id="200" prenom="Cersei" nom="Lannister" experience="Expérience suffisante">
-                    <langues_parlees niveau="expert">anglais</langues_parlees>
-                    <langues_parlees niveau="débutant">espagnol</langues_parlees>
-                </enseignant>
-            </enseignants>
-            <date>2019-07-01</date>
+            <date>2023-07-01</date>
         </sejour_linguistique>
 
         <sejour_linguistique>
@@ -120,6 +112,172 @@
             <date>2024-06-10</date>
         </sejour_linguistique>
 
+        <sejour_linguistique>
+            <id>3</id>
+            <type_de_sejour>
+                <groupes_scolaires>
+                    <annotation>
+                        <documentation>
+                            Cet élément représente un séjour linguistique pour les groupes scolaires, destiné à améliorer les compétences linguistiques des élèves dans un contexte culturel différent, et à leur permettre de découvrir une nouvelle destination
+                        </documentation>
+                    </annotation>
+                </groupes_scolaires>
+             </type_de_sejour>
+            <destination>Brésil</destination>
+            <cours_de_langue>Portugais</cours_de_langue>
+            <test_de_langue>CLES B2</test_de_langue>
+            <activites>
+                <activite>
+                    <culturelle>Visite de Rio de Janeiro</culturelle>
+                </activite>
+                <activite>
+                    <sportive>Match amical contre une équipe locale</sportive>
+                </activite>
+                <activite>
+                    <culturelle>Excursion dans la forêt amazonienne</culturelle>
+                </activite>
+                <activite>
+                    <sportive>Entrainement sur la plage de Copacabana</sportive>
+                </activite>
+                <activite>
+                    <culinaire>Dégustation de la cuisine brésilienne</culinaire>
+                </activite>
+                <activite>
+                    <aquatique>Plongée sous-marine</aquatique>
+                </activite>
+            </activites>
+            <prix>200000.00</prix>
+            <clients>
+                <client id="1" prenom="Weel" nom="Ben Aissa" age="19" sexe="M" adresse="Nice, France" telephone="0606060606"/>
+                <client id="2" prenom="Ali" nom="Haitam" age="21" sexe="M" adresse="Casablanca, Maroc" telephone="0707070707"/>
+                <client id="3" prenom="Omar" nom="Saissi" age="18" sexe="M" adresse="Tunis, Tunisie" telephone="0808080808"/>
+            </clients>
+            <type_de_public>
+                <adolescents>
+                    <annotation>
+                        <documentation>
+                            Cet élément représente un public d'adolescents.
+                        </documentation>
+                    </annotation>
+                </adolescents>
+            </type_de_public>
+            <accompagnateurs>
+                <accompagnateur id="10" prenom="Pep" nom="Guardiola"/>
+                <accompagnateur id="20" prenom="Zinedine" nom="Zidane"/>
+            </accompagnateurs>
+            <enseignants>
+                <enseignant id="100" prenom="Luiz" nom="Gustavo" experience="5 ans d'enseignement">
+                    <langues_parlees niveau="expert">Portugais</langues_parlees>
+                    <langues_parlees niveau="intermédiaire">Anglais</langues_parlees>
+                </enseignant>
+            <enseignant id="200" prenom="Neymar" nom="Jr" experience="3 ans d'enseignement">
+                <langues_parlees niveau="expert">Portugais</langues_parlees>
+                <langues_parlees niveau="intermédiaire">Français</langues_parlees>
+            </enseignant>
+            </enseignants>
+            <date>2023-08-01</date>
+</sejour_linguistique>
+<sejour_linguistique>
+            <id>4</id>
+            <type_de_sejour>
+                <sejour_pour_professionnels>
+                    <annotation>
+                        <documentation>
+                             Cet élément représente un séjour linguistique destiné aux professionnels qui souhaitent améliorer leurs compétences linguistiques dans un contexte professionnel.
+                        </documentation>
+                    </annotation>
+                </sejour_pour_professionnels>
+             </type_de_sejour>
+            <destination>USA</destination>
+            <cours_de_langue>Anglais</cours_de_langue>
+            <test_de_langue>TOEFL</test_de_langue>
+            <activites>
+                <activite>
+                    <sportive></sportive>
+                </activite>
+                <activite>
+                    <culturelle>Excursion dans la forêt amazonienne</culturelle>
+                </activite>
+                <activite>
+                    <sportive>Entrainement sur la plage de Copacabana</sportive>
+                </activite>
+                <activite>
+                    <culinaire>Dégustation de la cuisine brésilienne</culinaire>
+                </activite>
+                <activite>
+                    <aquatique>Plongée sous-marine</aquatique>
+                </activite>
+            </activites>
+            <prix>200000.00</prix>
+            <clients>
+                <client id="1" prenom="Weel" nom="Ben Aissa" age="19" sexe="M" adresse="Nice, France" telephone="0606060606"/>
+                <client id="2" prenom="Ali" nom="Haitam" age="21" sexe="M" adresse="Casablanca, Maroc" telephone="0707070707"/>
+                <client id="3" prenom="Omar" nom="Saissi" age="18" sexe="M" adresse="Tunis, Tunisie" telephone="0808080808"/>
+            </clients>
+            <type_de_public>
+                <adolescents>
+                    <annotation>
+                        <documentation>
+                            Cet élément représente un public d'adolescents.
+                        </documentation>
+                    </annotation>
+                </adolescents>
+            </type_de_public>
+            <accompagnateurs>
+                <accompagnateur id="10" prenom="Pep" nom="Guardiola"/>
+                <accompagnateur id="20" prenom="Zinedine" nom="Zidane"/>
+            </accompagnateurs>
+            <enseignants>
+                <enseignant id="100" prenom="Luiz" nom="Gustavo" experience="5 ans d'enseignement">
+                    <langues_parlees niveau="expert">Portugais</langues_parlees>
+                    <langues_parlees niveau="intermédiaire">Anglais</langues_parlees>
+                </enseignant>
+            <enseignant id="200" prenom="Neymar" nom="Jr" experience="3 ans d'enseignement">
+                <langues_parlees niveau="expert">Portugais</langues_parlees>
+                <langues_parlees niveau="intermédiaire">Français</langues_parlees>
+            </enseignant>
+            </enseignants>
+            <date>2023-08-01</date>
+</sejour_linguistique>
+<sejour_linguistique>
+  <id>5</id>
+  <type_de_sejour>
+    <programme_de_volontariat>
+      <annotation>
+        <documentation>
+          Ce séjour linguistique est destiné aux personnes qui souhaitent améliorer leur espagnol tout en participant à un programme de volontariat et donner des cours de français aux enfants espagnols.
+        </documentation>
+      </annotation>
+    </programme_de_volontariat>
+  </type_de_sejour>
+  <destination>Espagne</destination>
+  <cours_de_langue>Francais</cours_de_langue>
+  <activites>
+    <activite>
+      <culturelle>Visite du musée du cinéma de Barcelone</culturelle>
+      <divertissement>Projection de films espagnols</divertissement>
+      <culturelle>Visite du Santiago Bernabeu</culturelle>
+      </activite>
+  </activites>
+  <prix>1000.00</prix>
+  <clients>
+    <client id="1" prenom="Alice" nom="Dupont" age="30" sexe="F" adresse="12 Rue de la Paix" telephone="0601020304"/>
+    <client id="2" prenom="Bob" nom="Martin" age="35" sexe="M" adresse="8 Rue des Fleurs" telephone="0607080910"/>
+  </clients>
+  <type_de_public>
+    <adultes>
+      <annotation>
+        <documentation>
+          Ce séjour linguistique est destiné aux adultes.
+        </documentation>
+      </annotation>
+    </adultes>
+  </type_de_public>
+  <accompagnateurs>
+    <accompagnateur id="10" prenom="Sophie" nom="Lefebvre"/>
+    <accompagnateur id="20" prenom="Jean" nom="Muller"/>
+  </accompagnateurs>
+  <date>2024-05-15</date>
+</sejour_linguistique>
     </offre_de_sejour_linguistique>
-
 </centre_de_sejours_linguistiques>
