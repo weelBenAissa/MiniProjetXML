@@ -1,128 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sejours_linguistiques xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="sejours_linguistiques.xsd">
-   
-    <clients>
-        <clientType>
-            <nom>Nadal</nom>
-            <prenom>Rafael</prenom>
-            <adresse>15 Rue Winterfell, 20001 Madrid Espagne</adresse>
-            <email>rafael.nadal@gmail.com</email>
-            <age>36</age>
-            <sexe>male</sexe>
-            <nationalite>espagnole</nationalite>
-            <dateDeNaissance>03-06-1986</dateDeNaissance>
-        </clientType>
-        <clientType>
-            <nom>Federer</nom>
-            <prenom>Roger</prenom>
-            <adresse>25 stradun 25, 3925 Grächen Suisse</adresse>
-            <email>roger.federer@gmail.com</email>
-            <age>41</age>
-            <sexe>male</sexe>
-            <nationalite>suisse</nationalite>
-            <dateDeNaissance>08-08-1981</dateDeNaissance>
-        </clientType>
-    </clients>
+<centre_de_sejours_linguistiques>
 
-    <accompagnateurs>
-        <accompagnateurType>
-            <nom>Ancelotti</nom>
-            <prenom>Carlo</prenom>
-            <adresse>25 Plaza Conte, 00100 Rome Italie</adresse>
-            <email>carlo.ancelotti@gmail.com</email>
-            <age>35</age>
-            <sexe>male</sexe>
-        </accompagnateurType>
-    </accompagnateurs>
+    <offre_de_sejour_linguistique>
 
-    <enseignants specialite="grammaire">
-        <enseignantType>
-            <nom>Pintus</nom>
-            <prenom>Antonio</prenom>
-            <email>antonio.pintus@gmail.com</email>
-            <langue>italien</langue>
-        </enseignantType>
-    </enseignants>
+        <sejour_linguistique>
+            <id>1</id>
+            <type_de_sejour>
+                <colonies_de_vacances>
+                    <annotation>
+                        <documentation>
+                            Cet élément représente une colonie de vacances linguistique, destinée aux enfants et adolescents qui souhaitent apprendre une langue étrangère tout en s'amusant et en découvrant une nouvelle culture.
+                        </documentation>
+                    </annotation>
+                </colonies_de_vacances>
+            </type_de_sejour>
+            <destination>Angleterre</destination>
+            <cours_de_langue>Anglais</cours_de_langue>
+            <test_de_langue>TOEFL</test_de_langue>
+            <activites>
+                <activite>
+                    <culturelle>Musée de Londres</culturelle>
+                    <sportive>Football</sportive>
+                </activite>
+                <activite>
+                    <culturelle>Visite de la ville</culturelle>
+                    <culinaire>Atelier cuisine anglaise</culinaire>
+                </activite>
+            </activites>
+            <prix>2000.00</prix>
+            <clients>
+                <client id="1" prenom="Jon" nom="Snow" age="33" sexe="M" adresse="40 Rue Winterfell Westros" telephone="0606060606"/>
+                <client id="2" prenom="Daenerys" nom="Targaryen" age="25" sexe="F" adresse="50 DragonStone Esos" telephone="0707070707"/>
+            </clients>
+            <type_de_public>
+                <enfants>
+                    <annotation>
+                        <documentation>
+                            Cet élément représente un public d'enfants et d'adolescents.
+                        </documentation>
+                    </annotation>
+                </enfants>
+            </type_de_public>
+            <accompagnateurs>
+                <accompagnateur id="10" prenom="Arya" nom="Stark"/>
+                <accompagnateur id="20" prenom="Sansa" nom="Stark"/>
+            </accompagnateurs>
+            <enseignants>
+                <enseignant id="100" prenom="Tyrion" nom="Lannister" experience="Très malin">
+                    <langues_parlees niveau="expert">français</langues_parlees>
+                    <langues_parlees niveau="intermédiaire">anglais</langues_parlees>
+                </enseignant>
+                <enseignant id="200" prenom="Cersei" nom="Lannister" experience="Expérience suffisante">
+                    <langues_parlees niveau="expert">anglais</langues_parlees>
+                    <langues_parlees niveau="débutant">espagnol</langues_parlees>
+                </enseignant>
+            </enseignants>
+            <date>2019-07-01</date>
 
-    <destinations>
-        <destinationType>
-            <nom>London School of English</nom>
-            <pays>Royaume-Uni</pays>
-            <ville>Londres</ville>
-        </destinationType>
-        <destinationType>
-            <nom>German Language Center</nom>
-            <pays>Allemagne</pays>
-            <ville>Berlin</ville>
-        </destinationType>
-    </destinations>
+        </sejour_linguistique>
 
-    <types_de_public>
-        <typeDePublicType>
-            <nom>Débutant</nom>
-            <description>Personnes n'ayant jamais étudié la langue.</description>
-        </typeDePublicType>
-        <typeDePublicType>
-            <nom>Intermédiaire</nom>
-            <description>Personnes ayant une connaissance de base de la langue.</description>
-        </typeDePublicType>
-        <typeDePublicType>
-            <nom>Avancé</nom>
-            <description>Personnes ayant une bonne maîtrise de la langue.</description>
-        </typeDePublicType>
-    </types_de_public>
+    </offre_de_sejour_linguistique>
 
-    <types_de_sejours>
-        <typeDeSejourType>
-            <nom>Cours intensifs</nom>
-            <description>Programme intensif comprenant des cours de langue et des activités culturelles.</description>
-        </typeDeSejourType>
-        <typeDeSejourType>
-            <nom>Programme en famille d'accueil</nom>
-            <description>Programme avec hébergement en famille d'accueil pour une immersion totale dans la culture et la langue du pays.</description>
-        </typeDeSejourType>
-    </types_de_sejours>
-
-    <sejours>
-        <sejourType>
-            <destination>Londres</destination>
-            <typeDeSejour>Cours intensifs</typeDeSejour>
-            <dateDebut>01-07-2023</dateDebut>
-            <dateFin>15-07-2023</dateFin>
-            <typeDePublic>Débutant</typeDePublic>
-            <client>
-                <nom>Nadal</nom>
-                <prenom>Rafael</prenom>
-            </client>
-            <accompagnateur>
-                <nom>Ancelotti</nom>
-                <prenom>Carlo</prenom>
-            </accompagnateur>
-            <enseignant>
-                <nom>Pintus</nom>
-                <prenom>Carlo</prenom>
-            </enseignant>
-        </sejourType>
-
-        <sejourType>
-            <destination>Berlin</destination>
-            <typeDeSejour>Stage linguistique</typeDeSejour>
-            <dateDebut>01-08-2023</dateDebut>
-            <dateFin>31-08-2023</dateFin>
-            <typeDePublic>Avancé</typeDePublic>
-            <client>
-                <nom>Federer</nom>
-                <prenom>Roger</prenom>
-            </client>
-            <accompagnateur>
-                <nom>Ancelotti</nom>
-                <prenom>Carlo</prenom>
-            </accompagnateur>
-            <enseignant>
-                <nom>Pintus</nom>
-                <prenom>Carlo</prenom>
-            </enseignant>
-        </sejourType>
-    </sejours>
-
-</sejours_linguistiques>
+</centre_de_sejours_linguistiques>

@@ -120,8 +120,8 @@
                                                             <xs:attribute name="age" type="xs:int" use="required"/>
                                                             <xs:attribute name="sexe" type="xs:string" use="required"/>
                                                             <xs:attribute name="adresse" type="xs:string" use="required"/>
-                                                            <!-- les attributes vus comme facultatifs pour l'identificaion du client -->
                                                             <xs:attribute name="telephone" type="xs:string" use="required"/>
+                                                            <!-- les attributes vus comme facultatifs pour l'identificaion du client -->
                                                             <xs:attribute name="langue_maternelle" type="xs:string" use="optional"/>
                                                             <xs:attribute name="email" type="xs:string" use="optional"/>
                                                         </xs:complexType>
