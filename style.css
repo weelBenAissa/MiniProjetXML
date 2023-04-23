@@ -13,6 +13,7 @@ body {
   color: #333;
   font-family: 'Cinzel', serif;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 h1 {
@@ -51,3 +52,26 @@ li {
     font-size: 14px;
   }
 }
+
+#table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+#table th, #table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  white-space: nowrap;
+  text-align: center; /* Ajout de la propriété text-align:center */
+}
+
+#table th {
+  background-color: #f2f2f2;
+}
+
+#table td:first-child {
+  font-weight: bold;
+}
+

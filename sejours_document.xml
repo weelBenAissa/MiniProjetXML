@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="scenario_3.xslt"?>
+<!--
+    Décommenter la ligne ci-dessous pour visualiser
+    l'output de chaque scénario
+    PS : N'oublier pas de changer le numéro du scenario
+    en fonction de celui que vous voulez visualiser
 
+                ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+-->
+<?xml-stylesheet type="text/xsl" href="../scenarios/scenario_3.xslt"?>
 
 <centre_de_sejours_linguistiques>
 
     <offre_de_sejour_linguistique>
-    <sejour_linguistique>
+
+        <sejour_linguistique>
             <id>1</id>
             <type_de_sejour>
                 <colonies_de_vacances>
@@ -30,6 +38,7 @@
                 </activite>
             </activites>
             <prix>1990.00</prix>
+            <duree_de_sejour>10</duree_de_sejour>
             <clients>
                 <client id="1" prenom="Jon" nom="Snow" age="33" sexe="M" adresse="40 Rue Winterfell Westros" telephone="0606060606"/>
                 <client id="2" prenom="Daenerys" nom="Targaryen" age="25" sexe="F" adresse="50 DragonStone Esos" telephone="0707070707"/>
@@ -58,8 +67,8 @@
                 </enseignant>
             </enseignants>
             <date>2023-06-06</date>
-
         </sejour_linguistique>
+
         <sejour_linguistique>
             <id>2</id>
             <type_de_sejour>
@@ -89,6 +98,7 @@
                 </activite>
             </activites>
             <prix>4000.00</prix>
+            <duree_de_sejour>15</duree_de_sejour>
             <clients>
             <client id="1" prenom="Monkey D." nom="Luffy" age="19" sexe="M" adresse="Île des Hommes-Poissons" telephone="0000000000"/>
             <client id="2" prenom="Nami" nom="Arlong" age="20" sexe="F" adresse="Île des Hommes-Poissons" telephone="1111111111"/>
@@ -150,6 +160,7 @@
                 </activite>
             </activites>
             <prix>1990.00</prix>
+            <duree_de_sejour>10</duree_de_sejour>
             <clients>
                 <client id="1" prenom="Weel" nom="Ben Aissa" age="19" sexe="M" adresse="Nice, France" telephone="0606060606"/>
                 <client id="2" prenom="Ali" nom="Haitam" age="21" sexe="M" adresse="Casablanca, Maroc" telephone="0707070707"/>
@@ -179,8 +190,9 @@
             </enseignant>
             </enseignants>
             <date>2023-08-01</date>
-</sejour_linguistique>
-<sejour_linguistique>
+        </sejour_linguistique>
+
+        <sejour_linguistique>
             <id>4</id>
             <type_de_sejour>
                 <sejour_pour_professionnels>
@@ -190,7 +202,7 @@
                         </documentation>
                     </annotation>
                 </sejour_pour_professionnels>
-             </type_de_sejour>
+            </type_de_sejour>
             <destination>USA</destination>
             <cours_de_langue>Anglais</cours_de_langue>
             <test_de_langue>TOEFL</test_de_langue>
@@ -209,6 +221,7 @@
                 </activite>
             </activites>
             <prix>5000.00</prix>
+            <duree_de_sejour>3</duree_de_sejour>
             <clients>
                 <client id="1" prenom="Emmanuel" nom="Macron" age="56" sexe="M" adresse="Paris, France" telephone="0606060606"/>
                 <client id="2" prenom="Angela" nom="Merkel" age="21" sexe="M" adresse="Berlin, Allemagne" telephone="0707070707"/>
@@ -226,49 +239,51 @@
                 <accompagnateur id="10" prenom="Barack" nom="Obama"/>
             </accompagnateurs>
             <date>2023-08-01</date>
-</sejour_linguistique>
-<sejour_linguistique>
-  <id>5</id>
-  <type_de_sejour>
-    <programme_de_volontariat>
-      <annotation>
-        <documentation>
-          Ce séjour linguistique est destiné aux personnes qui souhaitent améliorer leur espagnol tout en participant à un programme de volontariat et donner des cours de français aux enfants espagnols.
-        </documentation>
-      </annotation>
-    </programme_de_volontariat>
-  </type_de_sejour>
-  <destination>Espagne</destination>
-  <cours_de_langue>Francais</cours_de_langue>
-  <activites>
-    <activite>
-      <culturelle>Visite du musée du cinéma de Barcelone</culturelle>
-      <divertissement>Projection de films espagnols</divertissement>
-      <culturelle>Visite du Santiago Bernabeu</culturelle>
-      </activite>
-  </activites>
-  <prix>1000.00</prix>
-  <clients>
-    <client id="1" prenom="Alice" nom="Dupont" age="30" sexe="F" adresse="12 Rue de la Paix" telephone="0601020304"/>
-    <client id="2" prenom="Bob" nom="Martin" age="35" sexe="M" adresse="8 Rue des Fleurs" telephone="0607080910"/>
-  </clients>
-  <type_de_public>
-    <adultes>
-      <annotation>
-        <documentation>
-          Ce séjour linguistique est destiné aux adultes.
-        </documentation>
-      </annotation>
-    </adultes>
-  </type_de_public>
-  <accompagnateurs>
-    <accompagnateur id="10" prenom="Sophie" nom="Lefebvre"/>
-    <accompagnateur id="20" prenom="Jean" nom="Muller"/>
-  </accompagnateurs>
-  <date>2024-05-15</date>
-</sejour_linguistique>
+        </sejour_linguistique>
 
-<sejour_linguistique>
+        <sejour_linguistique>
+            <id>5</id>
+            <type_de_sejour>
+                <programme_de_volontariat>
+                <annotation>
+                    <documentation>
+                    Ce séjour linguistique est destiné aux personnes qui souhaitent améliorer leur espagnol tout en participant à un programme de volontariat et donner des cours de français aux enfants espagnols.
+                    </documentation>
+                </annotation>
+                </programme_de_volontariat>
+            </type_de_sejour>
+            <destination>Espagne</destination>
+            <cours_de_langue>Francais</cours_de_langue>
+            <activites>
+                <activite>
+                <culturelle>Visite du musée du cinéma de Barcelone</culturelle>
+                <divertissement>Projection de films espagnols</divertissement>
+                <culturelle>Visite du Santiago Bernabeu</culturelle>
+                </activite>
+            </activites>
+            <prix>1000.00</prix>
+            <duree_de_sejour>20</duree_de_sejour>
+            <clients>
+                <client id="1" prenom="Alice" nom="Dupont" age="30" sexe="F" adresse="12 Rue de la Paix" telephone="0601020304"/>
+                <client id="2" prenom="Bob" nom="Martin" age="35" sexe="M" adresse="8 Rue des Fleurs" telephone="0607080910"/>
+            </clients>
+            <type_de_public>
+                <adultes>
+                <annotation>
+                    <documentation>
+                    Ce séjour linguistique est destiné aux adultes.
+                    </documentation>
+                </annotation>
+                </adultes>
+            </type_de_public>
+            <accompagnateurs>
+                <accompagnateur id="10" prenom="Sophie" nom="Lefebvre"/>
+                <accompagnateur id="20" prenom="Jean" nom="Muller"/>
+            </accompagnateurs>
+            <date>2024-05-15</date>
+        </sejour_linguistique>
+
+        <sejour_linguistique>
             <id>6</id>
             <type_de_sejour>
                 <groupes_scolaires>
@@ -293,6 +308,7 @@
                 </activite>
             </activites>
             <prix>1500.00</prix>
+            <duree_de_sejour>7</duree_de_sejour>
             <clients>
                 <client id="1" prenom="Michael" nom="Scofield" age="12" sexe="M" adresse="Fox River" telephone="0606060606"/>
                 <client id="2" prenom="Lincoln" nom="Burrows" age="15" sexe="F" adresse="Sona" telephone="0707070707"/>
@@ -314,6 +330,7 @@
             </accompagnateurs>
             <date>2023-07-01</date>
         </sejour_linguistique>
+
         <sejour_linguistique>
             <id>7</id>
             <type_de_sejour>
@@ -362,5 +379,7 @@
             </accompagnateurs>
             <date>2023-10-01</date>
         </sejour_linguistique>
+
     </offre_de_sejour_linguistique>
+
 </centre_de_sejours_linguistiques>

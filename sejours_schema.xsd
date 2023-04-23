@@ -76,7 +76,7 @@
                                         </xs:element>
                                         <xs:element name="prix">
                                             <xs:simpleType>
-                                                <xs:restriction base="xs:decimal">
+                                                <xs:restriction base="xs:int">
                                                     <xs:minExclusive value="0"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
@@ -87,11 +87,6 @@
                                                     <xs:minExclusive value="1"/>
                                                 </xs:restriction>
                                             </xs:simpleType>
-                                            <xs:annotation>
-                                                <xs:documentation>
-                                                    Cet élément représente la durée du séjour linguistique en nombre de jours.
-                                                </xs:documentation>
-                                            </xs:annotation>
                                         </xs:element>
                                         <xs:element name="niveau_de_langue_requis">
                                             <xs:simpleType>
@@ -206,4 +201,3 @@
         </xs:complexType>
     </xs:element>
 </xs:schema>
-
