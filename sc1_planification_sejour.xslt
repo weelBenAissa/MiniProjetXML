@@ -17,7 +17,6 @@
           <tr>
             <th>Destination</th>
             <th>Cours de langue</th>
-            <th>Test de langue</th>
             <th>Activités culturelles</th>
             <th>Prix</th>
             <th>Date</th>
