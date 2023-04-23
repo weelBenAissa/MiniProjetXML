@@ -1,0 +1,56 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  font-family: 'Cinzel', serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+th {
+  text-align: left;
+  background-color: #eee;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url('chemin/vers/la/police/Cinzel-Regular.ttf') format('truetype');
+}

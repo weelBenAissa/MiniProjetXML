@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sc1_planification_sejour.xslt"?>
+
+
+<centre_de_sejours_linguistiques>
+
+    <offre_de_sejour_linguistique>
+
+        <sejour_linguistique>
+            <id>1</id>
+            <type_de_sejour>
+                <colonies_de_vacances>
+                    <annotation>
+                        <documentation>
+                            Cet élément représente une colonie de vacances linguistique, destinée aux enfants et adolescents qui souhaitent apprendre une langue étrangère tout en s'amusant et en découvrant une nouvelle culture.
+                        </documentation>
+                    </annotation>
+                </colonies_de_vacances>
+            </type_de_sejour>
+            <destination>Angleterre</destination>
+            <cours_de_langue>Anglais</cours_de_langue>
+            <test_de_langue>TOEFL</test_de_langue>
+            <activites>
+                <activite>
+                    <culturelle>Musée de Londres</culturelle>
+                    <sportive>Football</sportive>
+                </activite>
+                <activite>
+                    <culturelle>Visite de la ville</culturelle>
+                    <culinaire>Atelier cuisine anglaise</culinaire>
+                </activite>
+            </activites>
+            <prix>2000.00</prix>
+            <clients>
+                <client id="1" prenom="Jon" nom="Snow" age="33" sexe="M" adresse="40 Rue Winterfell Westros" telephone="0606060606"/>
+                <client id="2" prenom="Daenerys" nom="Targaryen" age="25" sexe="F" adresse="50 DragonStone Esos" telephone="0707070707"/>
+            </clients>
+            <type_de_public>
+                <enfants>
+                    <annotation>
+                        <documentation>
+                            Cet élément représente un public d'enfants et d'adolescents.
+                        </documentation>
+                    </annotation>
+                </enfants>
+            </type_de_public>
+            <accompagnateurs>
+                <accompagnateur id="10" prenom="Arya" nom="Stark"/>
+                <accompagnateur id="20" prenom="Sansa" nom="Stark"/>
+            </accompagnateurs>
+            <enseignants>
+                <enseignant id="100" prenom="Tyrion" nom="Lannister" experience="Très malin">
+                    <langues_parlees niveau="expert">français</langues_parlees>
+                    <langues_parlees niveau="intermédiaire">anglais</langues_parlees>
+                </enseignant>
+                <enseignant id="200" prenom="Cersei" nom="Lannister" experience="Expérience suffisante">
+                    <langues_parlees niveau="expert">anglais</langues_parlees>
+                    <langues_parlees niveau="débutant">espagnol</langues_parlees>
+                </enseignant>
+            </enseignants>
+            <date>2019-07-01</date>
+        </sejour_linguistique>
+
+    </offre_de_sejour_linguistique>
+
+</centre_de_sejours_linguistiques>
