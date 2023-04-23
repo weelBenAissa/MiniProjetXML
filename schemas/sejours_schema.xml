@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="centre_de_sejours_linguistiques">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="offre_de_sejour_linguistique" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sejour_linguistique" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="id" type="xs:int" />
+                                        <xs:element name="type_de_sejour" type="xs:string">
+                                            <xs:complexType>
+                                                <xs:choice>
+                                                    <xs:element name="colonies_de_vacances" type="xs:string">
+                                                        <xs:annotation>
+                                                            <xs:documentation>
+                                                                Cet élément représente une colonie de vacances linguistique, destinée aux enfants et adolescents qui souhaitent apprendre une langue étrangère tout en s'amusant et en découvrant une nouvelle culture.
+                                                            </xs:documentation>
+                                                        </xs:annotation>
+                                                    </xs:element>
+                                                    <xs:element name="groupes_scolaires" type="xs:string">
+                                                        <xs:annotation>
+                                                            <xs:documentation>
+                                                                Cet élément représente un séjour linguistique pour les groupes scolaires, destiné à améliorer les compétences linguistiques des élèves dans un contexte culturel différent, et à leur permettre de découvrir une nouvelle destination.
+                                                            </xs:documentation>
+                                                        </xs:annotation>
+                                                    </xs:element>
+                                                    <xs:element name="immersions_en_famille" type="xs:string">
+                                                        <xs:annotation>
+                                                            <xs:documentation>
+                                                                Cette élément représente un séjour linguistique en immersion totale chez une famille d'accueil, destiné à permettre aux participants d'apprendre une langue étrangère tout en découvrant une nouvelle culture et en vivant une expérience authentique.
+                                                            </xs:documentation>
+                                                        </xs:annotation>
+                                                    </xs:element>
+                                                    <xs:element name="sejour_pour_professionnels" type="xs:string">
+                                                        <xs:annotation>
+                                                            <xs:documentation>
+                                                                Cet élément représente un séjour linguistique destiné aux professionnels qui souhaitent améliorer leurs compétences linguistiques dans un contexte professionnel.
+                                                            </xs:documentation>
+                                                        </xs:annotation>
+                                                    </xs:element>
+                                                    <xs:element name="programme_de_volontariat" type="xs:string">
+                                                        <xs:annotation>
+                                                            <xs:documentation>
+                                                                Cet élément représente un programme de volontariat linguistique, où les participants enseignent l'anglais ou une autre langue étrangère dans un pays étranger.
+                                                            </xs:documentation>
+                                                        </xs:annotation>
+                                                    </xs:element>
+                                                </xs:choice>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="destination" type="xs:string" />
+										<xs:element name="cours_de_langue" type="xs:string" />
+										<xs:element name="test_de_langue" type="xs:string" />
+                                        <xs:element name="activites">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="activite" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:choice maxOccurs="unbounded">
+                                                                    <xs:element name="culturelle" type="xs:string" minOccurs="0" />
+                                                                    <xs:element name="sportive" type="xs:string" minOccurs="0" />
+                                                                    <xs:element name="aquatique" type="xs:string" minOccurs="0" />
+                                                                    <xs:element name="culinaire" type="xs:string" minOccurs="0" />
+                                                                    <xs:element name="artistique" type="xs:string" minOccurs="0" />
+                                                                    <xs:element name="randonnée" type="xs:string" minOccurs="0" />
+                                                                </xs:choice>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="prix">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:decimal">
+                                                    <xs:minExclusive value="0"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="duree_de_sejour">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:int">
+                                                    <xs:minExclusive value="1"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                            <xs:annotation>
+                                                <xs:documentation>
+                                                    Cet élément représente la durée du séjour linguistique en nombre de jours.
+                                                </xs:documentation>
+                                            </xs:annotation>
+                                        </xs:element>
+                                        <xs:element name="niveau_de_langue_requis">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="débutant"/>
+                                                    <xs:enumeration value="intermédiaire"/>
+                                                    <xs:enumeration value="avancé"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                            <xs:annotation>
+                                                <xs:documentation>
+                                                Cet élément représente le niveau de langue requis pour participer au séjour linguistique.
+                                                Les valeurs possibles sont : "débutant", "intermédiaire" ou "avancé".
+                                                </xs:documentation>
+                                            </xs:annotation>
+                                        </xs:element>
+                                        <xs:element name="clients">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="client" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <!-- les attributs vus nécessaires pour l'identificaion du client -->
+                                                            <xs:attribute name="id" type="xs:int" use="required"/>
+                                                            <xs:attribute name="prenom" type="xs:string" use="required"/>
+                                                            <xs:attribute name="nom" type="xs:string" use="required"/>
+                                                            <xs:attribute name="age" type="xs:int" use="required"/>
+                                                            <xs:attribute name="sexe" type="xs:string" use="required"/>
+                                                            <xs:attribute name="adresse" type="xs:string" use="required"/>
+                                                            <!-- les attributes vus comme facultatifs pour l'identificaion du client -->
+                                                            <xs:attribute name="telephone" type="xs:string" use="required"/>
+                                                            <xs:attribute name="langue_maternelle" type="xs:string" use="optional"/>
+                                                            <xs:attribute name="email" type="xs:string" use="optional"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="type_de_public">
+                                            <xs:complexType>
+                                                <xs:choice>
+                                                    <xs:element name="adultes" type="xs:string"/>
+                                                    <xs:element name="famille" type="xs:string"/>
+                                                    <xs:element name="adolescents" type="xs:string"/>
+                                                    <xs:element name="enfants" type="xs:string"/>
+                                                </xs:choice>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="accompagnateurs">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="accompagnateur" minOccurs="1" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="id" type="xs:int" use="required"/>
+                                                                <xs:element name="prenom" type="xs:string" use="required"/>
+                                                                <xs:element name="nom" type="xs:string" use="required"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="enseignants">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="enseignant" minOccurs="1" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="id" type="xs:int" use="required"/>
+                                                                <xs:element name="prenom" type="xs:string" use="required"/>
+                                                                <xs:element name="nom" type="xs:string" use="required"/>
+                                                                <xs:element name="experience" type="xs:string" minOccurs="0">
+                                                                    <xs:annotation>
+                                                                        <xs:documentation>
+                                                                            Indique l'expérience de l'enseignant dans l'enseignement de la langue.
+                                                                        </xs:documentation>
+                                                                    </xs:annotation>
+                                                                </xs:element>
+                                                                <xs:element name="langues_parlees" minOccurs="0" maxOccurs="unbounded">
+                                                                    <xs:complexType>
+                                                                        <xs:simpleContent>
+                                                                            <xs:extension base="xs:string">
+                                                                                <xs:attribute name="niveau" type="xs:string" use="required">
+                                                                                    <xs:annotation>
+                                                                                        <xs:documentation>
+                                                                                            Indique le niveau de maîtrise de la langue parlée par l'enseignant.
+                                                                                        </xs:documentation>
+                                                                                    </xs:annotation>
+                                                                                </xs:attribute>
+                                                                            </xs:extension>
+                                                                        </xs:simpleContent>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="date">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:date"/>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+
