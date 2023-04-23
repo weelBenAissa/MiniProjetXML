@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* Ajouter un background en gris avec une decoration */
+  background-color: #f5f5f5;
 }
 
 /* Styles */
@@ -11,6 +13,7 @@ body {
   font-size: 16px;
   color: #333;
   font-family: 'Cinzel', serif;
+  text-align: center;
 }
 
 h1 {
@@ -48,9 +51,4 @@ li {
   table {
     font-size: 14px;
   }
-}
-
-@font-face {
-  font-family: 'Cinzel';
-  src: url('chemin/vers/la/police/Cinzel-Regular.ttf') format('truetype');
 }
