@@ -12,23 +12,27 @@
         <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&amp;family=Montserrat:ital,wght@0,200;1,200&amp;display=swap" rel="stylesheet"/>
       </head>
       <body>
-        <h1>Liste des offres de séjours linguistiques contenant des activités professionnelles</h1>
+        <h1>Liste des offres de séjours linguistiques qui ont pour but d'améliorer l'Anglais</h1>
         <table>
           <tr>
             <th>Destination</th>
-            <th>Langue</th>
-            <th>Activités Professionnelles Proposées</th>
+            <th>Description</th>
+            <th>Activités Proposées</th>
             <th>Prix</th>
             <th>Date</th>
           </tr>
-          <xsl:for-each select="centre_de_sejours_linguistiques/offre_de_sejour_linguistique/sejour_linguistique[activites/activite/professionnelle]">
+          <xsl:for-each select="centre_de_sejours_linguistiques/offre_de_sejour_linguistique/sejour_linguistique[cours_de_langue='Anglais']">
             <tr>
               <td><xsl:value-of select="destination"/></td>
-              <td><xsl:value-of select="cours_de_langue"/></td>
+              <td><xsl:value-of select="type_de_sejour"/></td>
               <td>
                 <ul>
-                  <xsl:for-each select="activites/activite[professionnelle]">
+                  <xsl:for-each select="activites/activite">
                     <li><xsl:value-of select="professionnelle"/></li>
+                    <li><xsl:value-of select="culturelle"/></li>
+                    <li><xsl:value-of select="sportive"/></li>
+                    <li><xsl:value-of select="culinaire"/></li>
+                    <li><xsl:value-of select="divertissement"/></li>
                   </xsl:for-each>
                 </ul>
               </td>
