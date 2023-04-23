@@ -5,14 +5,13 @@
 <centre_de_sejours_linguistiques>
 
     <offre_de_sejour_linguistique>
-
-        <sejour_linguistique>
+    <sejour_linguistique>
             <id>1</id>
             <type_de_sejour>
                 <colonies_de_vacances>
                     <annotation>
                         <documentation>
-                            Cet élément représente une colonie de vacances linguistique, destinée aux enfants et adolescents qui souhaitent apprendre une langue étrangère tout en s'amusant et en découvrant une nouvelle culture.
+                            Colonie de vacances linguistique, destinée aux enfants et adolescents qui souhaitent apprendre l'anglais durant leurs vacances tout en s'amusant et en découvrant une nouvelle culture.
                         </documentation>
                     </annotation>
                 </colonies_de_vacances>
@@ -22,41 +21,45 @@
             <test_de_langue>TOEFL</test_de_langue>
             <activites>
                 <activite>
-                    <professionelle>Simulation d'une negociation avec Elon Musk</professionelle>
+                    <culturelle>Musée de Londres</culturelle>
+                    <sportive>Football</sportive>
                 </activite>
                 <activite>
-                    <sportive>Match de Basket avec Micheal Jordan </sportive>
-                </activite>
-                <activite>
-                    <culturelle>Visite de la Maison Blanche</culturelle>
-                </activite>
-                <activite>
-                    <professionelle>Visite de la NASA</professionelle>
+                    <culturelle>Visite de la ville</culturelle>
+                    <culinaire>Atelier cuisine anglaise</culinaire>
                 </activite>
             </activites>
-            <prix>50000.00</prix>
+            <prix>2000.00</prix>
             <clients>
-                <client id="1" prenom="Michael" nom="Scofield" age="33" sexe="M" adresse="Fox River" telephone="0606060606"/>
-                <client id="2" prenom="Lincoln" nom="Burrows" age="25" sexe="F" adresse="Sona" telephone="0707070707"/>
-                <client id="3" prenom="Sara" nom="Tancredi" age="25" sexe="F" adresse="Sona" telephone="0808080808"/>
-                <client id="4" prenom="LJ" nom="Burrows" age="5" sexe="M" adresse="Sona" telephone="0909090909"/>
+                <client id="1" prenom="Jon" nom="Snow" age="33" sexe="M" adresse="40 Rue Winterfell Westros" telephone="0606060606"/>
+                <client id="2" prenom="Daenerys" nom="Targaryen" age="25" sexe="F" adresse="50 DragonStone Esos" telephone="0707070707"/>
             </clients>
             <type_de_public>
-                <adultes>
+                <enfants>
                     <annotation>
                         <documentation>
-                            Cet élément représente un public d'adultes.
+                            Cet élément représente un public d'enfants et d'adolescents.
                         </documentation>
                     </annotation>
-                </adultes>
+                </enfants>
             </type_de_public>
             <accompagnateurs>
-                <accompagnateur id="10" prenom="Theodore" nom="Bagwell"/>
-                <accompagnateur id="20" prenom="Christina" nom="Rose"/>
+                <accompagnateur id="10" prenom="Arya" nom="Stark"/>
+                <accompagnateur id="20" prenom="Sansa" nom="Stark"/>
             </accompagnateurs>
-            <date>2023-07-01</date>
-        </sejour_linguistique>
+            <enseignants>
+                <enseignant id="100" prenom="Tyrion" nom="Lannister" experience="Très malin">
+                    <langues_parlees niveau="expert">français</langues_parlees>
+                    <langues_parlees niveau="intermédiaire">anglais</langues_parlees>
+                </enseignant>
+                <enseignant id="200" prenom="Cersei" nom="Lannister" experience="Expérience suffisante">
+                    <langues_parlees niveau="expert">anglais</langues_parlees>
+                    <langues_parlees niveau="débutant">espagnol</langues_parlees>
+                </enseignant>
+            </enseignants>
+            <date>2019-07-01</date>
 
+        </sejour_linguistique>
         <sejour_linguistique>
             <id>2</id>
             <type_de_sejour>
@@ -118,7 +121,7 @@
                 <groupes_scolaires>
                     <annotation>
                         <documentation>
-                            Cet élément représente un séjour linguistique pour les groupes scolaires, destiné à améliorer les compétences linguistiques des élèves dans un contexte culturel différent, et à leur permettre de découvrir une nouvelle destination
+                            Séjour linguistique pour des étudiants afin d'ameliorer leurs niveau de Portugais avec des joueurs de Football au Brésil.
                         </documentation>
                     </annotation>
                 </groupes_scolaires>
@@ -146,7 +149,7 @@
                     <aquatique>Plongée sous-marine</aquatique>
                 </activite>
             </activites>
-            <prix>200000.00</prix>
+            <prix>19990.00</prix>
             <clients>
                 <client id="1" prenom="Weel" nom="Ben Aissa" age="19" sexe="M" adresse="Nice, France" telephone="0606060606"/>
                 <client id="2" prenom="Ali" nom="Haitam" age="21" sexe="M" adresse="Casablanca, Maroc" telephone="0707070707"/>
@@ -183,7 +186,7 @@
                 <sejour_pour_professionnels>
                     <annotation>
                         <documentation>
-                             Cet élément représente un séjour linguistique destiné aux professionnels qui souhaitent améliorer leurs compétences linguistiques dans un contexte professionnel.
+                            Un séjour linguistique destiné aux professionnels qui souhaitent améliorer leurs compétences linguistiques dans un contexte professionnel au USA et découvrir la culture américaine.
                         </documentation>
                     </annotation>
                 </sejour_pour_professionnels>
@@ -196,47 +199,32 @@
                     <sportive></sportive>
                 </activite>
                 <activite>
-                    <culturelle>Excursion dans la forêt amazonienne</culturelle>
+                    <culturelle>Visite de la Maison Blanche</culturelle>
                 </activite>
                 <activite>
-                    <sportive>Entrainement sur la plage de Copacabana</sportive>
+                    <professionnelle>Negociation avec Elon Musk</professionnelle>
                 </activite>
                 <activite>
-                    <culinaire>Dégustation de la cuisine brésilienne</culinaire>
-                </activite>
-                <activite>
-                    <aquatique>Plongée sous-marine</aquatique>
+                    <professionnelle>Visite des locaux de la NASA</professionnelle>
                 </activite>
             </activites>
-            <prix>200000.00</prix>
+            <prix>150000.00</prix>
             <clients>
-                <client id="1" prenom="Weel" nom="Ben Aissa" age="19" sexe="M" adresse="Nice, France" telephone="0606060606"/>
-                <client id="2" prenom="Ali" nom="Haitam" age="21" sexe="M" adresse="Casablanca, Maroc" telephone="0707070707"/>
-                <client id="3" prenom="Omar" nom="Saissi" age="18" sexe="M" adresse="Tunis, Tunisie" telephone="0808080808"/>
+                <client id="1" prenom="Emmanuel" nom="Macron" age="56" sexe="M" adresse="Paris, France" telephone="0606060606"/>
+                <client id="2" prenom="Angela" nom="Merkel" age="21" sexe="M" adresse="Berlin, Allemagne" telephone="0707070707"/>
             </clients>
             <type_de_public>
-                <adolescents>
+                <adultes>
                     <annotation>
                         <documentation>
-                            Cet élément représente un public d'adolescents.
+                            Cet élément représente un public d'adultes.
                         </documentation>
                     </annotation>
-                </adolescents>
+                </adultes>
             </type_de_public>
             <accompagnateurs>
-                <accompagnateur id="10" prenom="Pep" nom="Guardiola"/>
-                <accompagnateur id="20" prenom="Zinedine" nom="Zidane"/>
+                <accompagnateur id="10" prenom="Barack" nom="Obama"/>
             </accompagnateurs>
-            <enseignants>
-                <enseignant id="100" prenom="Luiz" nom="Gustavo" experience="5 ans d'enseignement">
-                    <langues_parlees niveau="expert">Portugais</langues_parlees>
-                    <langues_parlees niveau="intermédiaire">Anglais</langues_parlees>
-                </enseignant>
-            <enseignant id="200" prenom="Neymar" nom="Jr" experience="3 ans d'enseignement">
-                <langues_parlees niveau="expert">Portugais</langues_parlees>
-                <langues_parlees niveau="intermédiaire">Français</langues_parlees>
-            </enseignant>
-            </enseignants>
             <date>2023-08-01</date>
 </sejour_linguistique>
 <sejour_linguistique>
@@ -279,5 +267,100 @@
   </accompagnateurs>
   <date>2024-05-15</date>
 </sejour_linguistique>
+
+<sejour_linguistique>
+            <id>6</id>
+            <type_de_sejour>
+                <groupes_scolaires>
+                    <annotation>
+                        <documentation>
+                             Séjour linguistique pour des écoliers de 10 à 15 ans qui souhaite améliorer leur Japonais dans le Pays des Mangas.
+                        </documentation>
+                    </annotation>
+                </groupes_scolaires>
+            </type_de_sejour>
+            <destination>Japon</destination>
+            <cours_de_langue>Japonais</cours_de_langue>
+            <activites>
+                <activite>
+                    <culturelle>visite du marché de Tokyo</culturelle>
+                </activite>
+                <activite>
+                    <culinaire>degustation des spécialité locales dans le restaurant du chef etoilé Eiichiro Oda</culinaire>
+                </activite>
+                <activite>
+                    <divertissement>Atelier Manga avec Mr Kishimoto </divertissement>
+                </activite>
+            </activites>
+            <prix>10000.00</prix>
+            <clients>
+                <client id="1" prenom="Michael" nom="Scofield" age="12" sexe="M" adresse="Fox River" telephone="0606060606"/>
+                <client id="2" prenom="Lincoln" nom="Burrows" age="15" sexe="F" adresse="Sona" telephone="0707070707"/>
+                <client id="3" prenom="Sara" nom="Tancredi" age="11" sexe="F" adresse="Sona" telephone="0808080808"/>
+                <client id="4" prenom="LJ" nom="Burrows" age="13" sexe="M" adresse="Sona" telephone="0909090909"/>
+            </clients>
+            <type_de_public>
+                <adolescents>
+                    <annotation>
+                        <documentation>
+                            Destiné aux adolescents de 10 à 15 ans.
+                        </documentation>
+                    </annotation>
+                </adolescents>
+            </type_de_public>
+            <accompagnateurs>
+                <accompagnateur id="10" prenom="Theodore" nom="Bagwell"/>
+                <accompagnateur id="20" prenom="Christina" nom="Rose"/>
+            </accompagnateurs>
+            <date>2023-07-01</date>
+        </sejour_linguistique>
+        <sejour_linguistique>
+            <id>7</id>
+            <type_de_sejour>
+                <groupes_scolaires>
+                    <annotation>
+                        <documentation>
+                             Séjour linguistique pour des étudiants visant à obtenir le diplôme de langue anglaise(TOEIC).
+                        </documentation>
+                    </annotation>
+                </groupes_scolaires>
+            </type_de_sejour>
+            <destination>Angleterre</destination>
+            <cours_de_langue>Anglais</cours_de_langue>
+            <test_de_langue>TOEIC</test_de_langue>
+            <activites>
+                <activite>
+                    <culturelle>visite du marché de Londres</culturelle>
+                </activite>
+                <activite>
+                    <culturelle>Entretien avec Agatha Christie, la célèbre écrivaine </culturelle>
+                </activite>
+                <activite>
+                    <culinaire>degustation des spécialité locales dans le restaurant du chef etoilé Gordon Ramsay</culinaire>
+                </activite>
+                <activite>
+                    <divertissement>Atelier de cuisine avec Mr Gordon Ramsay </divertissement>
+                </activite>
+            </activites>
+            <prix>6000.00</prix>
+            <clients>
+                <client id="1" prenom="Aymane" nom="Elfiguigui" age="22" sexe="M" adresse="Tanger, Maroc" telephone="0606060606"/>
+                <client id="2" prenom="Youssef" nom="El Garmit" age="25" sexe="M" adresse="Tanger, Maroc" telephone="0707070707"/>
+            </clients>
+            <type_de_public>
+                <adolescents>
+                    <annotation>
+                        <documentation>
+                            Destiné aux étudiants qui souhaitent obtenir leur TOEIC.
+                        </documentation>
+                    </annotation>
+                </adolescents>
+            </type_de_public>
+            <accompagnateurs>
+                <accompagnateur id="10" prenom="Theodore" nom="Bagwell"/>
+                <accompagnateur id="20" prenom="Christina" nom="Rose"/>
+            </accompagnateurs>
+            <date>2023-10-01</date>
+        </sejour_linguistique>
     </offre_de_sejour_linguistique>
 </centre_de_sejours_linguistiques>
